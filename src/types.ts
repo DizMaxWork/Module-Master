@@ -24,72 +24,25 @@ export interface WordsLibrary {
       text: string;
     }
   ];
-  moduleOptions: [
-    {
-      img: string;
-      title: string;
-    },
-    {
-      img: string;
-      title: string;
-    },
-    {
-      img: string;
-      title: string;
-    },
-    {
-      img: string;
-      title: string;
-    },
-    {
-      img: string;
-      title: string;
-    },
-    {
-      img: string;
-      title: string;
-    },
-    {
-      img: string;
-      title: string;
-    },
-    {
-      img: string;
-      title: string;
-    }
-  ];
-  configurations: [
-    {
-      img: string;
-      title: string;
-      formImg: string;
-    },
-    {
-      img: string;
-      title: string;
-      formImg: string;
-    },
-    {
-      img: string;
-      title: string;
-      formImg: string;
-    },
-    {
-      img: string;
-      title: string;
-      formImg: string;
-    },
-    {
-      img: string;
-      title: string;
-      formImg: string;
-    },
-    {
-      img: string;
-      title: string;
-      formImg: string;
-    }
-  ];
+  moduleOptions: {
+    title: string;
+    cards: [
+      {
+        img: string;
+        title: string;
+      }
+    ];
+  };
+  configurations: {
+    title: string;
+    cards: [
+      {
+        img: string;
+        title: string;
+        formImg: string;
+      }
+    ];
+  };
   inside: {
     title: string;
     text: string[];

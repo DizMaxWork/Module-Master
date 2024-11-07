@@ -7,21 +7,25 @@ function App() {
   const language = useSelector(
     (state: { language: { language: "RU" | "EN" } }) => state.language.language
   );
-
+  const data = wordsLibrary[language];
   return (
     <>
-      {wordsLibrary.map((library) => {
-        const data = library[language];
-        return data ? (
-          <>
-            <Header nav={data.nav} defaultValue={data.navSelectLanguages} />
-            <Main mainBlock={data.mainBlock} plusesBlock={data.plusesBlock} />
-          </>
-        ) : null;
-      })}
+      <Header nav={data.nav} defaultValue={data.navSelectLanguages} />
+      <Main
+        mainBlock={data.mainBlock}
+        plusesBlock={data.plusesBlock}
+        moduleOptions={data.moduleOptions}
+        configBlock={data.configurations}
+        isideBlock={data.inside}
+      />
     </>
   );
 }
 
 export default App;
+
+
+
+
+
 
