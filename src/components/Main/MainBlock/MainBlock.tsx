@@ -6,7 +6,10 @@ export const MainBlock = ({
   mainBlock: WordsLibrary["mainBlock"];
 }) => {
   return (
-    <section className="bg-main-image bg-no-repeat h-[720px] container mx-auto mt-10 text-white pl-16 pt-32">
+    <section
+      className="bg-no-repeat h-[720px] container mx-auto mt-10 text-white pl-16 pt-32"
+      style={{ backgroundImage: `url(mainImg.png)` }}
+    >
       <h1 className="text-5xl font-bold w-3/5 pb-7 leading-[65px]">
         {mainBlock.title}
       </h1>
