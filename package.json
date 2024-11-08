@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://dizmaxwork.github.io/Module-Master",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -34,4 +35,6 @@
     "vite": "^5.4.10"
   }
 }
+
+
 
