@@ -9,6 +9,7 @@ export const MainBlock = ({
     <section
       className="bg-no-repeat h-[720px] container mx-auto mt-10 text-white pl-16 pt-32"
       style={{ backgroundImage: `url(mainImg.png)` }}
+      id="main"
     >
       <h1 className="text-5xl font-bold w-3/5 pb-7 leading-[65px]">
         {mainBlock.title}

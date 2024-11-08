@@ -10,7 +10,7 @@ export const ModuleAndConfigOptions = ({
   return (
     <>
       {type === "moduleOptions" && (
-        <section className="container mx-auto pt-24">
+        <section className="container mx-auto pt-24" id="module">
           <h1 className="text-[40px] text-totalBlack font-bold">
             {options.title}
           </h1>
@@ -29,7 +29,7 @@ export const ModuleAndConfigOptions = ({
         </section>
       )}
       {type === "configBlock" && (
-        <section className="container mx-auto pt-24">
+        <section className="container mx-auto pt-24" id="config">
           <h1 className="text-[40px] text-totalBlack font-bold">
             {options.title}
           </h1>

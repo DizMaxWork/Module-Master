@@ -11,20 +11,30 @@ export const FooterContacts = ({
       <div>
         <ul className="flex -mx-3 mb-4">
           <li className="px-3">
-            <img src="tg.svg" alt="Telegram" />
+            <a href="https://web.telegram.org">
+              <img src="tg.svg" alt="Telegram" />
+            </a>
           </li>
           <li className="px-3">
-            <img src="inst.svg" alt="Instagram" />
+            <a href="https://www.instagram.com">
+              <img src="inst.svg" alt="Instagram" />
+            </a>
           </li>
           <li className="px-3">
-            <img src="vk.svg" alt="VK" />
+            <a href="https://vk.com/">
+              <img src="vk.svg" alt="VK" />
+            </a>
           </li>
           <li className="px-3">
-            <img src="youtube.svg" alt="Youtube" />
+            <a href="https://www.youtube.com">
+              <img src="youtube.svg" alt="Youtube" />
+            </a>
           </li>
         </ul>
       </div>
-      <div className="pb-6">support@yoursite.com</div>
+      <div className="pb-6">
+        <a href="mailto:support@yoursite.com">support@yoursite.com</a>
+      </div>
       <div>
         <a href="tel:+37122057799" className="text-lg font-bold">
           +371 220 57 799

@@ -6,7 +6,7 @@ import { FooterSmallText } from "./FooterSmallText/FooterSmallText";
 
 export const Footer = ({ footer }: { footer: WordsLibrary["footer"] }) => {
   return (
-    <footer className="container mx-auto mt-[73px] mb-24">
+    <footer className="container mx-auto mt-[73px] mb-24" id="footer">
       <div className="bg-footerGray p-6 text-white rounded-3xl">
         <div className="flex justify-between">
           <FooterNav data={footer.nav} />

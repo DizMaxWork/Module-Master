@@ -1,9 +1,20 @@
 export const wordsLibrary = {
   RU: {
-    nav: ["Главная", "Модули", "Конфигурация", "Наши работы", "Контакты"],
+    nav: [
+      {
+        title: "Главная",
+        link: "#main",
+      },
+      { title: "Модули", link: "#module" },
+      { title: "Конфигурация", link: "#config" },
+      { title: "Наши работы", link: "#ourWorks" },
+      { title: "Контакты", link: "#footer" },
+    ],
+
     navSelectLanguages: "Выбрать язык",
     mainBlock: {
       title: "Производство полностью готовых передвижных модулей",
+      link: "main",
       content: [
         "Дома, дачи, глемпинги, офисы, магазины, киоски, хозпостройки и хранилища c полной отделкой и внутренними коммуникациями",
         "Не требует сборки, только соединение модулей ",
@@ -32,6 +43,7 @@ export const wordsLibrary = {
     ],
     moduleOptions: {
       title: "Варианты модулей",
+      link: "module",
       cards: [
         {
           img: "smallHouse.png",
@@ -69,6 +81,7 @@ export const wordsLibrary = {
     },
     configurations: {
       title: "Конфигурация",
+      link: "config",
       cards: [
         {
           img: "QType.png",
@@ -117,6 +130,7 @@ export const wordsLibrary = {
     },
     ourWorks: {
       title: "Наши работы",
+      link: "ourWorks",
       imgs: [
         "ourWork1.png",
         "ourWork2.png",
@@ -132,8 +146,17 @@ export const wordsLibrary = {
     },
     footer: {
       nav: {
-        title: "Навигация",
-        links: ["Главная", "Модули", "Конфигурация", "Наши работы", "Контакты"],
+        title: "Контакты",
+        links: [
+          {
+            title: "Главная",
+            link: "#main",
+          },
+          { title: "Модули", link: "#module" },
+          { title: "Конфигурация", link: "#config" },
+          { title: "Наши работы", link: "#ourWorks" },
+          { title: "Контакты", link: "#footer" },
+        ],
       },
       contactsTitle: "Контакты",
 
@@ -150,10 +173,21 @@ export const wordsLibrary = {
   },
 
   EN: {
-    nav: ["Win", "Modules", "Configuration", "Our Works", "Contacts"],
+    nav: [
+      {
+        title: "Main",
+        link: "#main",
+      },
+      { title: "Modules", link: "#module" },
+      { title: "Configuration", link: "#config" },
+      { title: "Our Works", link: "#ourWorks" },
+      { title: "Contacts", link: "#footer" },
+    ],
     navSelectLanguages: "Select language",
+    link: "main",
     mainBlock: {
       title: "Производство полностью готовых передвижных модулей",
+      link: "main",
       content: [
         "Дома, дачи, глемпинги, офисы, магазины, киоски, хозпостройки и хранилища c полной отделкой и внутренними коммуникациями",
         "Не требует сборки, только соединение модулей ",
@@ -182,6 +216,7 @@ export const wordsLibrary = {
     ],
     moduleOptions: {
       title: "Варианты модулей",
+      link: "module",
       cards: [
         {
           img: "smallHouse.png",
@@ -219,6 +254,7 @@ export const wordsLibrary = {
     },
     configurations: {
       title: "Конфигурация",
+      link: "config",
       cards: [
         {
           img: "QType.png",
@@ -267,6 +303,7 @@ export const wordsLibrary = {
     },
     ourWorks: {
       title: "Наши работы",
+      link: "ourWorks",
       imgs: [
         "ourWork1.png",
         "ourWork2.png",
@@ -282,8 +319,17 @@ export const wordsLibrary = {
     },
     footer: {
       nav: {
-        title: "Навигация",
-        links: ["Главная", "Модули", "Конфигурация", "Наши работы", "Контакты"],
+        title: "Контакты",
+        links: [
+          {
+            title: "Main",
+            link: "#main",
+          },
+          { title: "Modules", link: "#module" },
+          { title: "Configuration", link: "#config" },
+          { title: "Our Works", link: "#ourWorks" },
+          { title: "Contacts", link: "#footer" },
+        ],
       },
       contactsTitle: "Контакты",
 

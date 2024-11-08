@@ -11,7 +11,9 @@ export const FooterNav = ({
       <div>
         <ul className="-my-1.5">
           {data.links.map((link) => (
-            <li className="py-1.5">{link}</li>
+            <li className="py-1.5">
+              <a href={link.link}>{link.title}</a>
+            </li>
           ))}
         </ul>
       </div>

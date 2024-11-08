@@ -1,5 +1,8 @@
 export interface WordsLibrary {
-  nav: string[];
+  nav: Array<{
+    title: string;
+    link: string;
+  }>;
   navSelectLanguages: string;
   mainBlock: {
     title: string;
@@ -54,7 +57,10 @@ export interface WordsLibrary {
   footer: {
     nav: {
       title: string;
-      links: string[];
+      links: Array<{
+        title: string;
+        link: string;
+      }>;
     };
     rightBlock: { footerTitle: string; inputPlaceholder: string };
     contactsTitle: string;
