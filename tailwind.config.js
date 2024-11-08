@@ -22,11 +22,12 @@ export default {
         "2xl": "1410px",
       },
       backgroundImage: {
-        "main-image": "url('/ModuleMaster/mainImg.png')",
+        "main-image": "url('mainImg.png')",
       },
     },
   },
   plugins: [],
 };
+
 
 
