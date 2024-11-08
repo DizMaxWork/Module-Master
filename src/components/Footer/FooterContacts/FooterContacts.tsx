@@ -11,16 +11,16 @@ export const FooterContacts = ({
       <div>
         <ul className="flex -mx-3 mb-4">
           <li className="px-3">
-            <img src="/ModulMaster/tg.svg" alt="Telegram" />
+            <img src="/ModuleMaster/tg.svg" alt="Telegram" />
           </li>
           <li className="px-3">
-            <img src="/ModulMaster/inst.svg" alt="Instagram" />
+            <img src="/ModuleMaster/inst.svg" alt="Instagram" />
           </li>
           <li className="px-3">
-            <img src="/ModulMaster/vk.svg" alt="VK" />
+            <img src="/ModuleMaster/vk.svg" alt="VK" />
           </li>
           <li className="px-3">
-            <img src="/ModulMaster/youtube.svg" alt="Youtube" />
+            <img src="/ModuleMaster/youtube.svg" alt="Youtube" />
           </li>
         </ul>
       </div>

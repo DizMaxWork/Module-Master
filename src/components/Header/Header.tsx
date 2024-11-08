@@ -11,7 +11,7 @@ export const Header = ({
     <header className="container mx-auto bg-white rounded-3xl px-6 mt-4 py-4">
       <div className="flex justify-between items-center">
         <div>
-          <img src="/ModulMaster/logo.svg" alt="Лого" />
+          <img src="/ModuleMaster/logo.svg" alt="Лого" />
         </div>
         <nav className="flex -mx-3">
           {nav.map((item, index) => (

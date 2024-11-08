@@ -19,7 +19,7 @@ export const FooterInput = ({
           />
         </div>
         <button className="rounded-3xl bg-white py-2.5 px-6">
-          <img src="/ModulMaster/arrow.svg" alt="Arrow" />
+          <img src="/ModuleMaster/arrow.svg" alt="Arrow" />
         </button>
       </div>
     </div>
