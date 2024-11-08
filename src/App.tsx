@@ -2,6 +2,7 @@ import { useSelector } from "react-redux";
 import { Header } from "./components/Header/Header";
 import { wordsLibrary } from "./wordsLibrary";
 import { Main } from "./components/Main/Main";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   const language = useSelector(
@@ -17,12 +18,16 @@ function App() {
         moduleOptions={data.moduleOptions}
         configBlock={data.configurations}
         isideBlock={data.inside}
+        ourWorks={data.ourWorks}
       />
+      <Footer footer={data.footer} />
     </>
   );
 }
 
 export default App;
+
+
 
 
 

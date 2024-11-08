@@ -131,13 +131,21 @@ export const wordsLibrary = {
       ],
     },
     footer: {
-      nav: ["Главная", "Модули", "Конфигурация", "Наши работы", "Контакты"],
+      nav: {
+        title: "Навигация",
+        links: ["Главная", "Модули", "Конфигурация", "Наши работы", "Контакты"],
+      },
       contactsTitle: "Контакты",
-      privatePolicyTitle: "Политика конфиденциальности",
-      footerTitle:
-        "Подпишитесь на рассылку, чтобы не пропустить новинки и акции",
-      inputPlaceholder: "Ваш e-mail",
-      paymentDetails: "Реквизиты",
+
+      rightBlock: {
+        footerTitle:
+          "Подпишитесь на рассылку, чтобы не пропустить новинки и акции",
+        inputPlaceholder: "Ваш e-mail",
+      },
+      smallText: {
+        privatePolicyTitle: "Политика конфиденциальности",
+        paymentDetails: "Реквизиты",
+      },
     },
   },
 
@@ -273,13 +281,21 @@ export const wordsLibrary = {
       ],
     },
     footer: {
-      nav: ["Главная", "Модули", "Конфигурация", "Наши работы", "Контакты"],
+      nav: {
+        title: "Навигация",
+        links: ["Главная", "Модули", "Конфигурация", "Наши работы", "Контакты"],
+      },
       contactsTitle: "Контакты",
-      privatePolicyTitle: "Политика конфиденциальности",
-      footerTitle:
-        "Подпишитесь на рассылку, чтобы не пропустить новинки и акции",
-      inputPlaceholder: "Ваш e-mail",
-      paymentDetails: "Реквизиты",
+
+      rightBlock: {
+        footerTitle:
+          "Подпишитесь на рассылку, чтобы не пропустить новинки и акции",
+        inputPlaceholder: "Ваш e-mail",
+      },
+      smallText: {
+        privatePolicyTitle: "Политика конфиденциальности",
+        paymentDetails: "Реквизиты",
+      },
     },
   },
 };

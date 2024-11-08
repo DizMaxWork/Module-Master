@@ -52,11 +52,15 @@ export interface WordsLibrary {
     imgs: string[];
   };
   footer: {
-    nav: string[];
+    nav: {
+      title: string;
+      links: string[];
+    };
+    rightBlock: { footerTitle: string; inputPlaceholder: string };
     contactsTitle: string;
-    privatePolicyTitle: string;
-    footerTitle: string;
-    inputPlaceholder: string;
-    paymentDetails: string;
+    smallText: {
+      privatePolicyTitle: string;
+      paymentDetails: string;
+    };
   };
 }
