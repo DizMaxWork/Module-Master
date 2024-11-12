@@ -7,11 +7,11 @@ export const MainBlock = ({
 }) => {
   return (
     <section
-      className="bg-no-repeat h-[720px] container mx-auto mt-10 text-white pl-16 pt-32"
+      className="bg-no-repeat h-[720px] container mx-auto mt-10 text-white pl-16 pt-12 rounded-3xl"
       style={{ backgroundImage: `url(mainImg.png)` }}
       id="main"
     >
-      <h1 className="text-5xl font-bold w-3/5 pb-7 leading-[65px]">
+      <h1 className="text-5xl font-bold w-3/5 pb-7 leading-[65px] mt-16">
         {mainBlock.title}
       </h1>
       <div className="-my-3 w-2/5 mb-20">

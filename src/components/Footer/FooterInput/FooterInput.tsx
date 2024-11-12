@@ -15,7 +15,7 @@ export const FooterInput = ({
           <input
             type="email"
             placeholder={data.inputPlaceholder}
-            className="rounded-3xl pl-6 py-4 w-[434px] border-none outline-none text-totalBlack"
+            className="rounded-3xl pl-6 py-4 2xl:w-[434px] xl:w-[350px] border-none outline-none text-totalBlack"
           />
         </div>
         <button className="rounded-3xl bg-white py-2.5 px-6">

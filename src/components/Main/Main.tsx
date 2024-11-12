@@ -4,6 +4,7 @@ import { MainBlock } from "./MainBlock/MainBlock";
 import { ModuleAndConfigOptions } from "./ModuleAndConfigOptions/ModuleAndConfigOptions";
 import { OurWorks } from "./OurWorks/OurWorks";
 import { PlusesBlock } from "./PlusesBlock/PlusesBlock";
+import { SliderIMG } from "../Slider";
 
 export const Main = ({
   mainBlock,
@@ -28,6 +29,7 @@ export const Main = ({
       <ModuleAndConfigOptions options={configBlock} type="configBlock" />
       <Inside data={isideBlock} />
       <OurWorks data={ourWorks} />
+      <SliderIMG data={ourWorks} />
     </main>
   );
 };

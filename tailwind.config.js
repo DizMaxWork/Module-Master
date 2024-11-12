@@ -9,6 +9,7 @@ export default {
         darkGrey: "#3A3A3A",
         grey: "#ABABAB",
         white: "#FFFFFF",
+        whiteToHeader: "rgba(255, 255, 255, 0.8)",
         totalBlack: "#000000",
         footerGray: "#4F4F4F",
         bgColor: "#E9E9E9",
@@ -28,6 +29,10 @@ export default {
   },
   plugins: [],
 };
+
+
+
+
 
 
 

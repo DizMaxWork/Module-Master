@@ -12,7 +12,7 @@ export const Header = ({
   // const [state, setState] = useState("Главная");
   const [active, setActive] = useState<string>();
   return (
-    <header className="container mx-auto bg-white rounded-3xl px-6 mt-4 py-4 sticky top-0">
+    <header className="container mx-auto bg-whiteToHeader rounded-3xl px-6 mt-4 py-4 sticky top-0 z-50">
       <div className="flex justify-between items-center">
         <div>
           <img src="logo.svg" alt="Лого" />

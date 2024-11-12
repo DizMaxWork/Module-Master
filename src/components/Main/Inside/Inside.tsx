@@ -2,7 +2,7 @@ import { WordsLibrary } from "../../../types";
 
 export const Inside = ({ data }: { data: WordsLibrary["inside"] }) => {
   return (
-    <section className="container mx-auto pt-24">
+    <section className="container mx-auto 2xl:pt-24 xl:pt-16">
       <div className="p-6 bg-white rounded-3xl flex justify-between">
         <div>
           <h2 className="text-[40px] font-bold text-totalBlack pb-6">
