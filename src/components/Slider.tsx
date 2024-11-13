@@ -12,7 +12,7 @@ export const SliderIMG = ({ data }: { data: WordsLibrary["ourWorks"] }) => {
   };
 
   return (
-    <div className="w-1/2 mx-auto md:hidden sm:block">
+    <div className="w-1/2 mx-auto md:hidden block pt-10">
       <Slider {...settings}>
         {data.imgs.map((img) => (
           <div>

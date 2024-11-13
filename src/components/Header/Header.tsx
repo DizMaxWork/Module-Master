@@ -35,7 +35,10 @@ export const Header = ({
           </ul>
         </nav>
         <div className="flex items-center">
-          <a href="tel:+37122057799" className="mr-6 font-bold text-lg">
+          <a
+            href="tel:+37122057799"
+            className="mr-6 font-bold text-lg xl:block hidden"
+          >
             +371 220 57 799
           </a>
           <HeaderBtn defaultValue={defaultValue} />

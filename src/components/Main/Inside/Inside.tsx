@@ -2,8 +2,8 @@ import { WordsLibrary } from "../../../types";
 
 export const Inside = ({ data }: { data: WordsLibrary["inside"] }) => {
   return (
-    <section className="container mx-auto 2xl:pt-24 xl:pt-16">
-      <div className="p-6 bg-white rounded-3xl flex justify-between">
+    <section className="container mx-auto 2xl:pt-24 xl:pt-16 lg:pt-14 pt-10">
+      <div className="p-6 bg-white rounded-3xl flex justify-between xl:flex-nowrap flex-wrap">
         <div>
           <h2 className="text-[40px] font-bold text-totalBlack pb-6">
             {data.title}
@@ -14,7 +14,7 @@ export const Inside = ({ data }: { data: WordsLibrary["inside"] }) => {
             ))}
           </div>
         </div>
-        <div className="mr-3">
+        <div className="mr-3 xl:block xl:justify-normal xl:w-auto xl:mt-0 mt-10 flex justify-center w-full ">
           <img src="inside.png" alt="Дом" className=" h-[410px]" />
         </div>
       </div>

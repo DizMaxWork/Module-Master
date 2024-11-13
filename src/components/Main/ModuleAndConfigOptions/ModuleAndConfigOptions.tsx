@@ -10,13 +10,16 @@ export const ModuleAndConfigOptions = ({
   return (
     <>
       {type === "moduleOptions" && (
-        <section className="container mx-auto 2xl:pt-24 xl:pt-16" id="module">
-          <h1 className="text-[40px] text-totalBlack font-bold">
+        <section
+          className="container mx-auto 2xl:pt-24 xl:pt-16 lg:pt-14 pt-10"
+          id="module"
+        >
+          <h1 className="text-[40px] text-totalBlack font-bold md:text-start text-center">
             {options.title}
           </h1>
           <div className="flex flex-wrap justify-between pt-10 -my-4">
             {(options as WordsLibrary["moduleOptions"]).cards.map((card) => (
-              <div className="bg-white rounded-3xl p-4 mb-6 2xl:w-auto xl:w-[24%]">
+              <div className="bg-white rounded-3xl p-4 mb-6 2xl:w-auto xl:w-[24%] md:w-[47%] w-full">
                 <div className="overflow-hidden rounded-3xl">
                   <img
                     src={card.img}
@@ -33,13 +36,16 @@ export const ModuleAndConfigOptions = ({
         </section>
       )}
       {type === "configBlock" && (
-        <section className="container mx-auto 2xl:pt-24 xl:pt-16" id="config">
-          <h1 className="text-[40px] text-totalBlack font-bold">
+        <section
+          className="container mx-auto 2xl:pt-24 xl:pt-16 lg:pt-14 pt-10"
+          id="config"
+        >
+          <h1 className="text-[40px] text-totalBlack font-bold md:text-start text-center">
             {options.title}
           </h1>
-          <div className="flex flex-wrap justify-between pt-10 -my-4 ">
+          <div className="flex flex-wrap md:justify-between justify-center pt-10 -my-4 ">
             {(options as WordsLibrary["configurations"]).cards.map((card) => (
-              <div className="bg-white rounded-3xl p-4 mb-6 2xl:w-auto xl:w-[32%]">
+              <div className="bg-white rounded-3xl p-4 mb-6 2xl:w-auto xl:w-[32%] md:w-[47%] w-full">
                 <div className="overflow-hidden rounded-3xl">
                   <img
                     src={card.img}
