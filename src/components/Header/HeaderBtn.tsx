@@ -5,8 +5,11 @@ import { useState } from "react";
 export const HeaderBtn = ({ defaultValue }: { defaultValue: string }) => {
   const dispatch = useDispatch();
   const language = useSelector(
-    (state: { language: { language: "RU" | "EN" | "ET" | "DE" | "NL" } }) =>
-      state.language.language
+    (state: {
+      language: {
+        language: "RU" | "EN" | "ET" | "DE" | "NL" | "PT" | "ES" | "SV";
+      };
+    }) => state.language.language
   );
   const [isOpen, setIsOpen] = useState(false);
 
@@ -60,6 +63,24 @@ export const HeaderBtn = ({ defaultValue }: { defaultValue: string }) => {
                 onClick={() => handleSelect("NL")}
               >
                 Dutch
+              </li>
+              <li
+                className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 hover:bg-transparent"
+                onClick={() => handleSelect("PT")}
+              >
+                Portuguese
+              </li>
+              <li
+                className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 hover:bg-transparent"
+                onClick={() => handleSelect("ES")}
+              >
+                Spanish
+              </li>
+              <li
+                className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 hover:bg-transparent"
+                onClick={() => handleSelect("SV")}
+              >
+                Sweden
               </li>
             </ul>
           )}

@@ -6,8 +6,11 @@ import { Footer } from "./components/Footer/Footer";
 
 function App() {
   const language = useSelector(
-    (state: { language: { language: "RU" | "EN" | "ET" | "DE" | "NL" } }) =>
-      state.language.language
+    (state: {
+      language: {
+        language: "RU" | "EN" | "ET" | "DE" | "NL" | "PT" | "ES" | "SV";
+      };
+    }) => state.language.language
   );
   const data = wordsLibrary[language];
   return (

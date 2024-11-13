@@ -862,4 +862,523 @@ export const wordsLibrary = {
       },
     },
   },
+  PT: {
+    nav: [
+      {
+        title: "Principal",
+        link: "#main",
+      },
+      { title: "Módulo", link: "#module" },
+      { title: "Configuração", link: "#config" },
+      { title: "Nossos trabalhos", link: "#ourWorks" },
+      { title: "Contato", link: "#footer" },
+    ],
+    navSelectLanguages: "Selecione um idioma",
+    link: "main",
+    mainBlock: {
+      title:
+        "Fabricação de módulos móveis, totalmente habitáveis e com todas as comodidades",
+      link: "main",
+      content: [
+        "Casas, casas de férias, glamping, escritórios, lojas, quiosques, anexos e armazéns com acabamentos completos e comunicações internas",
+        "Completamente prontos para morar",
+        "Sem necessidade de fundações",
+        "Preparação da deslocação em 60 minutos",
+      ],
+      btn: "Deixe-nos aconselhá-lo",
+    },
+    plusesBlock: [
+      {
+        title: "Não é necessário um projeto",
+        text: "Na maioria dos países europeus, não é necessário um projeto para os edifícios temporários que podem ser transferidos para outro sítio.",
+      },
+      {
+        title: "Não são necessárias fundações",
+        text: "Os nossos módulos podem ser instalados em qualquer base, mesmo temporária (blocos ou mesmo pedras). ",
+      },
+      {
+        title: "Não é necessária montagem",
+        text: "Apenas se a sua encomenda for composta por vários módulos, é necessário ligá-los uns aos outros utilizando as fixações preparadas.",
+      },
+      {
+        title: "Fácil de deslocar",
+        text: "Os nossos módulos podem ser facilmente deslocados para um novo sítio sem serem desmontados. A preparação da deslocação demora 1 hora.",
+      },
+    ],
+    moduleOptions: {
+      title: "Opções de módulo",
+      link: "module",
+      cards: [
+        {
+          img: "smallHouse.png",
+          title: "Casa pequena",
+        },
+        {
+          img: "village.png",
+          title: "Casa de campo",
+        },
+        {
+          img: "glamping.png",
+          title: "Glamping",
+        },
+        {
+          img: "streetCafe.png",
+          title: "Café ao ar livre",
+        },
+        {
+          img: "office.png",
+          title: "Edifício de escritórios",
+        },
+        {
+          img: "garage.png",
+          title: "Garagem, armazém",
+        },
+        {
+          img: "shop.png",
+          title: "Loja, quiosque",
+        },
+        {
+          img: "securityRoom.png",
+          title: "Posto de vigia",
+        },
+      ],
+    },
+    configurations: {
+      title: "Configuração",
+      link: "config",
+      cards: [
+        {
+          img: "QType.png",
+          title: "Q -Type",
+          formImg: "QForm.svg",
+        },
+        {
+          img: "IType.png",
+          title: "I -Type",
+          formImg: "IForm.svg",
+        },
+        {
+          img: "TType.png",
+          title: "T -Type",
+          formImg: "TForm.svg",
+        },
+        {
+          img: "LType.png",
+          title: "L -Type",
+          formImg: "LForm.svg",
+        },
+        {
+          img: "ZType.png",
+          title: "Z -Type",
+          formImg: "ZForm.svg",
+        },
+        {
+          img: "UType.png",
+          title: "U -Type",
+          formImg: "UForm.svg",
+        },
+      ],
+    },
+    inside: {
+      title: "O que há dentro!?",
+      text: [
+        "- a estrutura metálica exterior garante a solidez da construção",
+        "- isolamento das paredes, do chão e do telhado em poliestireno expandido ou lã de rocha para viver durante todo o ano",
+        "- janelas com vidros triplos de alta qualidade para um maior isolamento térmico",
+        "- acabamento exterior em tábua de madeira ou painéis compósitos à escolha do cliente",
+        "- no interior, as paredes são feitas de contraplacado de alta qualidade ou painéis decorativos de MDF",
+        "- no chão, painéis vinílicos de quartzo com aquecimento de piso integrado",
+        "- todas as comunicações (eletricidade, água, esgotos) são colocadas no interior das paredes",
+        "- um terraço exterior pode ser montado no telhado ",
+      ],
+    },
+    ourWorks: {
+      title: "Nossos trabalhos",
+      link: "ourWorks",
+      imgs: [
+        "ourWork1.png",
+        "ourWork2.png",
+        "ourWork3.png",
+        "ourWork4.png",
+        "ourWork5.png",
+        "ourWork6.png",
+        "ourWork7.png",
+        "ourWork8.png",
+        "ourWork9.png",
+        "ourWork10.png",
+      ],
+    },
+    footer: {
+      nav: {
+        title: "Navegação",
+        links: [
+          {
+            title: "Principal",
+            link: "#main",
+          },
+          { title: "Módulo", link: "#module" },
+          { title: "Configuração", link: "#config" },
+          { title: "Nossos trabalhos", link: "#ourWorks" },
+          { title: "Contato", link: "#footer" },
+        ],
+      },
+      contactsTitle: "Contato",
+
+      rightBlock: {
+        footerTitle:
+          "Assine a newsletter para não perder novos produtos e promoções",
+        inputPlaceholder: "Seu endereço de email",
+      },
+      smallText: {
+        privatePolicyTitle: "Privacidade",
+        paymentDetails: "Necessário",
+      },
+    },
+  },
+  ES: {
+    nav: [
+      {
+        title: "Principal",
+        link: "#main",
+      },
+      { title: "Módulo", link: "#module" },
+      { title: "Ajustes", link: "#config" },
+      { title: "Nuestros trabajos", link: "#ourWorks" },
+      { title: "Contacto", link: "#footer" },
+    ],
+    navSelectLanguages: "Seleccione un idioma",
+    link: "main",
+    mainBlock: {
+      title:
+        "Fabricación de módulos móviles, completamente habitables y con todas las comodidades",
+      link: "main",
+      content: [
+        "Casas, casas de vacaciones, glamping, oficinas, tiendas, quioscos, anexos y almacenes con acabados completos y comunicaciones internas",
+        "Completamente preparado para vivir",
+        "No requiere cimientos",
+        "La preparación para el traslado toma 60 minutos",
+      ],
+      btn: "Déjanos asesorarte",
+    },
+    plusesBlock: [
+      {
+        title: "No se necesita proyecto",
+        text: "En la mayoría de los países europeos no se requiere un proyecto para las construcciones temporales que pueden ser trasladadas a otro lugar.",
+      },
+      {
+        title: "No requiere cimientos",
+        text: "Nuestros módulos pueden instalarse sobre cualquier base, incluso provisional (bloques o incluso piedras).",
+      },
+      {
+        title: "No requiere montaje",
+        text: "Solo si su pedido consta de varios módulos, es necesario conectarlos entre sí mediante las fijaciones preparadas.",
+      },
+      {
+        title: "Fácil de trasladar",
+        text: "Nuestros módulos pueden trasladarse fácilmente a una nueva ubicación sin necesidad de desmontarlos. Preparar el traslado toma 1 hora.",
+      },
+    ],
+    moduleOptions: {
+      title: "Opciones del módulo",
+      link: "module",
+      cards: [
+        {
+          img: "smallHouse.png",
+          title: "Сasa pequeña",
+        },
+        {
+          img: "village.png",
+          title: "Casa de campo",
+        },
+        {
+          img: "glamping.png",
+          title: "Glamping",
+        },
+        {
+          img: "streetCafe.png",
+          title: "Café al aire libre",
+        },
+        {
+          img: "office.png",
+          title: "Edificio de oficinas",
+        },
+        {
+          img: "garage.png",
+          title: "Garaje, almacén",
+        },
+        {
+          img: "shop.png",
+          title: "Tienda, quiosco",
+        },
+        {
+          img: "securityRoom.png",
+          title: "Puesto de vigilancia",
+        },
+      ],
+    },
+    configurations: {
+      title: "Ajustes",
+      link: "config",
+      cards: [
+        {
+          img: "QType.png",
+          title: "Q -Type",
+          formImg: "QForm.svg",
+        },
+        {
+          img: "IType.png",
+          title: "I -Type",
+          formImg: "IForm.svg",
+        },
+        {
+          img: "TType.png",
+          title: "T -Type",
+          formImg: "TForm.svg",
+        },
+        {
+          img: "LType.png",
+          title: "L -Type",
+          formImg: "LForm.svg",
+        },
+        {
+          img: "ZType.png",
+          title: "Z -Type",
+          formImg: "ZForm.svg",
+        },
+        {
+          img: "UType.png",
+          title: "U -Type",
+          formImg: "UForm.svg",
+        },
+      ],
+    },
+    inside: {
+      title: "¿¡Que hay dentro!?",
+      text: [
+        "- el armazón metálico exterior garantiza la solidez de la construcción",
+        "- aislamiento de paredes, suelos y techos de poliestireno expandido o lana de roca para vivir todo el año",
+        "- ventanas de triple acristalamiento de alta calidad para aumentar el aislamiento térmico",
+        "- acabado exterior de tablero de madera o paneles compuestos a elección del cliente",
+        "- en el interior, las paredes son de madera contrachapada de primera calidad o paneles decorativos de MDF ",
+        "- en el suelo, paneles de vinilo de cuarzo con calefacción por suelo radiante integrada",
+        "- todas las comunicaciones (electricidad, agua, alcantarillado) están tendidas en el interior de las paredes",
+        "- se puede montar una terraza exterior en el tejado  ",
+      ],
+    },
+    ourWorks: {
+      title: "Nuestros trabajos",
+      link: "ourWorks",
+      imgs: [
+        "ourWork1.png",
+        "ourWork2.png",
+        "ourWork3.png",
+        "ourWork4.png",
+        "ourWork5.png",
+        "ourWork6.png",
+        "ourWork7.png",
+        "ourWork8.png",
+        "ourWork9.png",
+        "ourWork10.png",
+      ],
+    },
+    footer: {
+      nav: {
+        title: "Navegación",
+        links: [
+          {
+            title: "Principal",
+            link: "#main",
+          },
+          { title: "Módulo", link: "#module" },
+          { title: "Ajustes", link: "#config" },
+          { title: "Nuestros trabajos", link: "#ourWorks" },
+          { title: "Contacto", link: "#footer" },
+        ],
+      },
+      contactsTitle: "Contacto",
+
+      rightBlock: {
+        footerTitle:
+          "Suscríbete a la newsletter para no perderte nuevos productos y promociones",
+        inputPlaceholder: "Tu correo electrónico",
+      },
+      smallText: {
+        privatePolicyTitle: "Privacidad",
+        paymentDetails: "Necesario",
+      },
+    },
+  },
+  SV: {
+    nav: [
+      {
+        title: "Större",
+        link: "#main",
+      },
+      { title: "Modul", link: "#module" },
+      { title: "Inställningar", link: "#config" },
+      { title: "Våra jobb", link: "#ourWorks" },
+      { title: "Kontakta", link: "#footer" },
+    ],
+    navSelectLanguages: "Välj ett språk",
+    link: "main",
+    mainBlock: {
+      title:
+        "Produktion av flyttbara moduler med alla bekvämligheter som är redo att flytta in ",
+      link: "main",
+      content: [
+        "Hus, sommarstugor, glamping, kontor, butiker, kiosker, uthus och förråd. med fullständig ytbehandling och interna el- och VA-ledningar",
+        "Fullständigt redo för boende",
+        "Kräver inte byggande av husgrund",
+        "Förberedelsen inför flytten till en ny plats tar 60 minuter",
+      ],
+      btn: "Låt oss ge dig råd",
+    },
+    plusesBlock: [
+      {
+        title: "Inget projekt behövs",
+        text: "I de flesta europeiska länder behöver man inte att godkänna ett projekt för en temporär byggnad som kan flyttas till en annan plats.",
+      },
+      {
+        title: "Ingen grund krävs",
+        text: "Våra moduler kan installeras på alla typer av tillfälliga grunder (block eller till och med stenar).",
+      },
+      {
+        title: "Ingen montering krävs",
+        text: "Endast om din beställning består av flera moduler är det nödvändigt att sätta ihop dem med hjälp av speciella fästanordningar.",
+      },
+      {
+        title: "Lätt att flytta",
+        text: "Våra moduler kan enkelt flyttas till en ny plats utan demontering. Förberedelsen inför flytten tar 1 timme.",
+      },
+    ],
+    moduleOptions: {
+      title: "Modulalternativ",
+      link: "module",
+      cards: [
+        {
+          img: "smallHouse.png",
+          title: "Småhus",
+        },
+        {
+          img: "village.png",
+          title: "Hus på landet",
+        },
+        {
+          img: "glamping.png",
+          title: "Glamping",
+        },
+        {
+          img: "streetCafe.png",
+          title: "Kafé",
+        },
+        {
+          img: "office.png",
+          title: "Kontorsbyggnad",
+        },
+        {
+          img: "garage.png",
+          title: "Garage, förråd",
+        },
+        {
+          img: "shop.png",
+          title: "Butik, kiosk",
+        },
+        {
+          img: "securityRoom.png",
+          title: "Vaktpost",
+        },
+      ],
+    },
+    configurations: {
+      title: "Inställningar",
+      link: "config",
+      cards: [
+        {
+          img: "QType.png",
+          title: "Q -Type",
+          formImg: "QForm.svg",
+        },
+        {
+          img: "IType.png",
+          title: "I -Type",
+          formImg: "IForm.svg",
+        },
+        {
+          img: "TType.png",
+          title: "T -Type",
+          formImg: "TForm.svg",
+        },
+        {
+          img: "LType.png",
+          title: "L -Type",
+          formImg: "LForm.svg",
+        },
+        {
+          img: "ZType.png",
+          title: "Z -Type",
+          formImg: "ZForm.svg",
+        },
+        {
+          img: "UType.png",
+          title: "U -Type",
+          formImg: "UForm.svg",
+        },
+      ],
+    },
+    inside: {
+      title: "Vad finns inuti !?",
+      text: [
+        "- den yttre metallramen gör konstruktionen tillförlitlig",
+        "- vägg-, golv- och takisolering av expanderad polystyren eller stenull. för boende året runt",
+        "- treglasfönster av hög kvalitet för ökad värmeisolering",
+        "- utvändig ytbehandling av träskivor eller kompositpaneler efter kundens val",
+        "- inuti på väggarna är det plywood av högsta kvalitet eller dekorativa MDF-paneler ",
+        "- golvet är belagt med SPC-paneler med integrerad golvvärme",
+        "- alla ledningar (el, vatten, avlopp) är förlagda innanför väggarna",
+        "- Möjlighet att anordna en utomhusterrass på taket",
+      ],
+    },
+    ourWorks: {
+      title: "Våra jobb",
+      link: "ourWorks",
+      imgs: [
+        "ourWork1.png",
+        "ourWork2.png",
+        "ourWork3.png",
+        "ourWork4.png",
+        "ourWork5.png",
+        "ourWork6.png",
+        "ourWork7.png",
+        "ourWork8.png",
+        "ourWork9.png",
+        "ourWork10.png",
+      ],
+    },
+    footer: {
+      nav: {
+        title: "Navigering",
+        links: [
+          {
+            title: "Större",
+            link: "#main",
+          },
+          { title: "Modul", link: "#module" },
+          { title: "Inställningar", link: "#config" },
+          { title: "Våra jobb", link: "#ourWorks" },
+          { title: "Kontakta", link: "#footer" },
+        ],
+      },
+      contactsTitle: "Kontakta",
+
+      rightBlock: {
+        footerTitle:
+          "Prenumerera på nyhetsbrevet så att du inte missar nya produkter och kampanjer",
+        inputPlaceholder: "Din e-post",
+      },
+      smallText: {
+        privatePolicyTitle: "Privatliv",
+        paymentDetails: "Nödvändig",
+      },
+    },
+  },
 };
