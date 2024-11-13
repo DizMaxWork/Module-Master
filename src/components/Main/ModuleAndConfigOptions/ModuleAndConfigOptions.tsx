@@ -14,7 +14,7 @@ export const ModuleAndConfigOptions = ({
           className="container mx-auto 2xl:pt-24 xl:pt-16 lg:pt-14 pt-10"
           id="module"
         >
-          <h1 className="text-[40px] text-totalBlack font-bold md:text-start text-center">
+          <h1 className="md:text-[40px] text-[36px] text-totalBlack font-bold ">
             {options.title}
           </h1>
           <div className="flex flex-wrap justify-between pt-10 -my-4">
@@ -40,7 +40,7 @@ export const ModuleAndConfigOptions = ({
           className="container mx-auto 2xl:pt-24 xl:pt-16 lg:pt-14 pt-10"
           id="config"
         >
-          <h1 className="text-[40px] text-totalBlack font-bold md:text-start text-center">
+          <h1 className="md:text-[40px] text-[36px] text-totalBlack font-bold ">
             {options.title}
           </h1>
           <div className="flex flex-wrap md:justify-between justify-center pt-10 -my-4 ">

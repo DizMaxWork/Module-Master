@@ -19,7 +19,7 @@ export const HeaderBtn = ({ defaultValue }: { defaultValue: string }) => {
   };
 
   return (
-    <div className="-mx-2 border rounded-3xl p-1 border-[#ABABAB]">
+    <div className="-mx-2 border rounded-3xl p-1 border-[#ABABAB] lg:block hidden">
       <div className="flex items-center">
         <span className="pr-2">{language}</span>
         <div className="relative">

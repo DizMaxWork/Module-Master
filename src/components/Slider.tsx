@@ -9,14 +9,16 @@ export const SliderIMG = ({ data }: { data: WordsLibrary["ourWorks"] }) => {
     speed: 500, // Скорость анимации в миллисекундах
     slidesToShow: 1, // Количество слайдов, показываемых одновременно
     slidesToScroll: 1, // Количество слайдов, прокручиваемых за один раз
+    arrows: false,
   };
 
   return (
-    <div className="w-1/2 mx-auto md:hidden block pt-10">
+    <div className=" container mx-auto md:hidden block pt-8 bg-white p-6 rounded-3xl mt-12">
+      <h2 className="pb-4 text-[40px] font-bold">{data.title}</h2>
       <Slider {...settings}>
         {data.imgs.map((img) => (
           <div>
-            <img src={img} alt="" />
+            <img src={img} alt="" className="h-[316px] text-center w-full" />
           </div>
         ))}
       </Slider>

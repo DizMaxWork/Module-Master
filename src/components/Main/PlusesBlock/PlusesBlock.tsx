@@ -11,7 +11,7 @@ export const PlusesBlock = ({
         {plusesBlock.map((block, index) => (
           <div
             key={index}
-            className="bg-white rounded-3xl px-8 py-6 xl:w-[22%] w-[48%] xl:my-0 my-2"
+            className="bg-white rounded-3xl px-8 py-6 xl:w-[22%] md:w-[48%] w-full xl:my-0 my-2"
           >
             <h2 className="font-bold pb-4 text-3xl">{block.title}</h2>
             <p>{block.text}</p>

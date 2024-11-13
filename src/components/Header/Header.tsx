@@ -14,13 +14,21 @@ export const Header = ({
   return (
     <header className="container mx-auto bg-whiteToHeader rounded-3xl px-6 mt-4 py-4 sticky top-0 z-50">
       <div className="flex justify-between items-center">
+        <div className="mt-1.5 lg:hidden block">
+          <button>
+            <img src="burger.svg" alt="" />
+          </button>
+        </div>
         <div>
           <img src="logo.svg" alt="Лого" />
         </div>
-        <nav className="flex -mx-3">
+        <nav className="flex -mx-3 lg:block hidden">
           <ul className="flex">
             {nav.map((item, index) => (
-              <li key={index} className="px-3 hover:font-bold">
+              <li
+                key={index}
+                className="px-3 hover:font-bold lg:text-base text-sm"
+              >
                 <a
                   href={item.link}
                   onClick={() => setActive(item.title)}
@@ -34,12 +42,10 @@ export const Header = ({
             ))}
           </ul>
         </nav>
-        <div className="flex items-center">
-          <a
-            href="tel:+37122057799"
-            className="mr-6 font-bold text-lg xl:block hidden"
-          >
-            +371 220 57 799
+        <div className="flex items-center ">
+          <a href="tel:+37122057799" className="lg:mr-6 font-bold text-lg">
+            <span className="xl:block hidden">+371 220 57 799</span>
+            <img src="phoneIcon.svg" alt="Phone" className="lg:hidden block" />
           </a>
           <HeaderBtn defaultValue={defaultValue} />
         </div>

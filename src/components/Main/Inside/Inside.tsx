@@ -15,7 +15,7 @@ export const Inside = ({ data }: { data: WordsLibrary["inside"] }) => {
           </div>
         </div>
         <div className="mr-3 xl:block xl:justify-normal xl:w-auto xl:mt-0 mt-10 flex justify-center w-full ">
-          <img src="inside.png" alt="Дом" className=" h-[410px]" />
+          <img src="inside.png" alt="Дом" className=" md:h-[410px] h-[194px]" />
         </div>
       </div>
     </section>
