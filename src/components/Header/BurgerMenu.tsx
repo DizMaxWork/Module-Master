@@ -13,12 +13,12 @@ export const BurgerMenu = ({
     <div className="App">
       <div className={`${styles.menu} ${styles.visible}`}>
         <div>
-          <div>
+          <div className="mb-8">
             <img src="logo.svg" alt="" />
           </div>
-          <ul className="menu-list">
+          <ul className="menu-list  -my-2.5">
             {nav.map((item, index) => (
-              <li key={index} className=" my-2 text-sm">
+              <li key={index} className=" py-2.5 text-sm">
                 <a
                   href={item.link}
                   onClick={() => setActive(item.title)}

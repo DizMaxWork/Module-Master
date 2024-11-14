@@ -5,7 +5,7 @@ export const Inside = ({ data }: { data: WordsLibrary["inside"] }) => {
     <section className="container mx-auto 2xl:pt-24 xl:pt-16 lg:pt-14 pt-10">
       <div className="p-6 bg-white rounded-3xl flex justify-between xl:flex-nowrap flex-wrap">
         <div>
-          <h2 className="text-[40px] font-bold text-totalBlack pb-6">
+          <h2 className="md:text-[40px] text-[32px] font-bold text-totalBlack pb-6">
             {data.title}
           </h2>
           <div className="-mb-5">
