@@ -26,7 +26,10 @@ export const SmallMainBlock = ({
           ))}
         </div>
         <div className="bg-white -mx-6 -my-4 w-[96%] ml-0.5 rounded-3xl text-center  ">
-          <button className=" text-black px-6 py-4 font-semibold ">
+          <button
+            className=" text-black px-6 py-4 font-semibold "
+            onClick={() => setIsOpen(true)}
+          >
             {mainBlock.btn}
           </button>
         </div>
