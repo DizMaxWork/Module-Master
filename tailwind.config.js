@@ -13,6 +13,7 @@ export default {
         totalBlack: "#000000",
         footerGray: "#4F4F4F",
         bgColor: "#E9E9E9",
+        color36: "#363636",
       },
       screens: {
         xs: "375px",
@@ -29,6 +30,7 @@ export default {
   },
   plugins: [],
 };
+
 
 
 

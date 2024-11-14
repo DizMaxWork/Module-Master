@@ -1,4 +1,6 @@
+import { useState } from "react";
 import { WordsLibrary } from "../../../types";
+import { PopUp } from "../PopUp";
 import { SmallMainBlock } from "./SmallMainBlock";
 
 export const MainBlock = ({
@@ -6,6 +8,7 @@ export const MainBlock = ({
 }: {
   mainBlock: WordsLibrary["mainBlock"];
 }) => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <>
       <section
@@ -23,12 +26,16 @@ export const MainBlock = ({
             </p>
           ))}
         </div>
-        <div className="bg-white -mx-6 -my-4 w-64 ml-0.5 rounded-xl text-center md:block ">
-          <button className=" text-black px-6 py-4 font-semibold ">
+        <div className="bg-white -mx-6 -my-4 w-64 ml-0.5 rounded-3xl text-center md:block ">
+          <button
+            className=" text-black px-6 py-4 font-semibold "
+            onClick={() => setIsOpen(true)}
+          >
             {mainBlock.btn}
           </button>
         </div>
       </section>
+      <PopUp isOpen={isOpen} setIsOpen={setIsOpen} />
       <SmallMainBlock mainBlock={mainBlock} />
     </>
   );

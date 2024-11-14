@@ -3,10 +3,10 @@ import { WordsLibrary } from "../../../types";
 export const OurWorks = ({ data }: { data: WordsLibrary["ourWorks"] }) => {
   return (
     <section
-      className="container mx-auto 2xl:pt-24 xl:pt-16 lg:pt-14 md:pt-10 md:block hidden"
+      className="container mx-auto 2xl:pt-24 xl:pt-16 lg:pt-14 md:pt-10 md:block hidden pb-10"
       id="ourWorks"
     >
-      <div className="bg-white md:p-6 p-0 rounded-3xl">
+      <div className="bg-white md:p-6 rounded-3xl">
         <h2 className="pb-8 md:text-[40px] text-[32px] font-bold">
           {data.title}
         </h2>

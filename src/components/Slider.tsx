@@ -18,7 +18,11 @@ export const SliderIMG = ({ data }: { data: WordsLibrary["ourWorks"] }) => {
       <Slider {...settings}>
         {data.imgs.map((img) => (
           <div>
-            <img src={img} alt="" className="h-[316px] text-center w-full" />
+            <img
+              src={img}
+              alt=""
+              className="h-[316px] text-center w-full px-1"
+            />
           </div>
         ))}
       </Slider>

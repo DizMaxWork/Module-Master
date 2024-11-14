@@ -22,7 +22,7 @@ export const SmallMainBlock = ({
             </p>
           ))}
         </div>
-        <div className="bg-white -mx-6 -my-4 w-[96%] ml-0.5 rounded-xl text-center  ">
+        <div className="bg-white -mx-6 -my-4 w-[96%] ml-0.5 rounded-3xl text-center  ">
           <button className=" text-black px-6 py-4 font-semibold ">
             {mainBlock.btn}
           </button>
