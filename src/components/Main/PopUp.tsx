@@ -1,4 +1,10 @@
-export const PopUp = ({ isOpen, setIsOpen }) => {
+export const PopUp = ({
+  isOpen,
+  setIsOpen,
+}: {
+  isOpen: boolean;
+  setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}) => {
   return (
     <>
       {isOpen && (

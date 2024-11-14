@@ -1,10 +1,13 @@
+import { useState } from "react";
 import { WordsLibrary } from "../../../types";
+import { PopUp } from "../PopUp";
 
 export const SmallMainBlock = ({
   mainBlock,
 }: {
   mainBlock: WordsLibrary["mainBlock"];
 }) => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <section
       className="bg-footerGray container mx-auto mt-10 text-white rounded-[46px] md:hidden pb-10"
@@ -28,6 +31,7 @@ export const SmallMainBlock = ({
           </button>
         </div>
       </div>
+      <PopUp isOpen={isOpen} setIsOpen={setIsOpen} />
     </section>
   );
 };
