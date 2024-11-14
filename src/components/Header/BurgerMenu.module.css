@@ -1,0 +1,22 @@
+.menu {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%; /* Меню занимает всю ширину контейнера */
+    height: 0; /* Начальная высота меню - скрыто */
+    background-color: #fff;
+    color: #4F4F4F;
+    padding: 20px;
+    overflow: hidden; /* Скрыть контент, который выходит за пределы */
+    transition: height 0.3s ease-in-out; /* Плавное изменение высоты */
+    z-index: 50;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+  }
+  
+  .menu.visible {
+    height: 33%; /* Когда меню видно, его высота становится 33% */
+  }
+  
