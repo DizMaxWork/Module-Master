@@ -18,7 +18,7 @@ export const FooterInput = ({
             className="rounded-3xl pl-6 py-4 2xl:w-[434px] xl:w-[350px] md:w-[200px] sm:w-[400px] w-[224px] border-none outline-none text-totalBlack"
           />
         </div>
-        <button className="rounded-3xl bg-white py-2.5 px-6">
+        <button className="rounded-3xl bg-white py-2.5 px-6 transition ease-in-out hover:bg-neutral-200">
           <img src="arrow.svg" alt="Arrow" />
         </button>
       </div>

@@ -11,10 +11,10 @@ export const ModuleAndConfigOptions = ({
     <>
       {type === "moduleOptions" && (
         <section
-          className="container mx-auto 2xl:pt-24 xl:pt-16 lg:pt-14 pt-10"
+          className="container mx-auto  xl:pt-16 lg:pt-14 pt-10"
           id="module"
         >
-          <h1 className="md:text-[40px] text-[32px] text-totalBlack font-bold text-center">
+          <h1 className="md:text-[40px] text-[32px] text-totalBlack font-bold md:text-start text-center">
             {options.title}
           </h1>
           <div className="flex flex-wrap justify-between pt-10 -my-4">
@@ -37,7 +37,7 @@ export const ModuleAndConfigOptions = ({
       )}
       {type === "configBlock" && (
         <section
-          className="container mx-auto 2xl:pt-24 xl:pt-16 lg:pt-14 pt-10  py-4"
+          className="container mx-auto  xl:pt-16 lg:pt-14 pt-10  py-4"
           id="config"
         >
           <h1 className="md:text-[40px] text-[32px] text-totalBlack font-bold ">

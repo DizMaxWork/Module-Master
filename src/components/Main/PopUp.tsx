@@ -28,16 +28,16 @@ export const PopUp = ({
                 <input
                   type="email"
                   placeholder="Ваш e-mail"
-                  className="border border-footerGray rounded-3xl px-8 py-4 my-2"
+                  className="border border-footerGray rounded-3xl px-8 py-4 my-2 w-full"
                 />
                 <input
                   type="phone"
                   placeholder="Номер телефона"
-                  className="border border-footerGray rounded-3xl px-8 py-4 my-2"
+                  className="border border-footerGray rounded-3xl px-8 py-4 my-2 w-full"
                 />
                 <textarea
                   placeholder="Комментарий"
-                  className="border border-footerGray rounded-3xl px-8 py-4 my-2"
+                  className="border border-footerGray rounded-3xl px-8 py-4 my-2 w-full"
                 />
                 <div className="bg-color36 w-full text-center py-4 rounded-[36px] mt-10">
                   <button className="text-white">Отправить</button>

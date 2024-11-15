@@ -5,6 +5,7 @@ import { ModuleAndConfigOptions } from "./ModuleAndConfigOptions/ModuleAndConfig
 import { OurWorks } from "./OurWorks/OurWorks";
 import { PlusesBlock } from "./PlusesBlock/PlusesBlock";
 import { SliderIMG } from "../Slider";
+import { Form } from "./Form/Form";
 
 export const Main = ({
   mainBlock,
@@ -28,6 +29,7 @@ export const Main = ({
       <ModuleAndConfigOptions options={moduleOptions} type="moduleOptions" />
       <ModuleAndConfigOptions options={configBlock} type="configBlock" />
       <Inside data={isideBlock} />
+      <Form />
       <OurWorks data={ourWorks} />
       <SliderIMG data={ourWorks} />
     </main>

@@ -35,49 +35,49 @@ export const HeaderBtn = ({ defaultValue }: { defaultValue: string }) => {
           {isOpen && (
             <ul className="absolute bg-darkGrey text-white rounded-2xl mt-1 w-full py-1">
               <li
-                className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 hover:bg-transparent"
+                className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 "
                 onClick={() => handleSelect("RU")}
               >
                 Russia
               </li>
               <li
-                className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 hover:bg-transparent"
+                className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 "
                 onClick={() => handleSelect("EN")}
               >
                 English
               </li>
               <li
-                className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 hover:bg-transparent"
+                className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 "
                 onClick={() => handleSelect("ET")}
               >
                 Estonian
               </li>
               <li
-                className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 hover:bg-transparent"
+                className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 "
                 onClick={() => handleSelect("DE")}
               >
                 German
               </li>
               <li
-                className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 hover:bg-transparent"
+                className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 "
                 onClick={() => handleSelect("NL")}
               >
                 Dutch
               </li>
               <li
-                className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 hover:bg-transparent"
+                className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 "
                 onClick={() => handleSelect("PT")}
               >
                 Portuguese
               </li>
               <li
-                className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 hover:bg-transparent"
+                className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 "
                 onClick={() => handleSelect("ES")}
               >
                 Spanish
               </li>
               <li
-                className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 hover:bg-transparent"
+                className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 "
                 onClick={() => handleSelect("SV")}
               >
                 Sweden
