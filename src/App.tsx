@@ -23,6 +23,7 @@ function App() {
         configBlock={data.configurations}
         isideBlock={data.inside}
         ourWorks={data.ourWorks}
+        form={data.form}
       />
       <Footer footer={data.footer} />
     </>

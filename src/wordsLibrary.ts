@@ -144,6 +144,13 @@ export const wordsLibrary = {
         "ourWork10.png",
       ],
     },
+    form: {
+      title: "Оставьте заявку и наш менеджер ответит на все ваши вопросы",
+      firstInput: "Ваш e-mail",
+      secondInput: "Номер телефона",
+      thirdInput: "Комментарий",
+      btn: "Отправить",
+    },
     footer: {
       nav: {
         title: "Навигация",
@@ -317,6 +324,13 @@ export const wordsLibrary = {
         "ourWork10.png",
       ],
     },
+    form: {
+      title: "Leave a request and our manager will answer all your questions",
+      firstInput: "Your e-mail",
+      secondInput: "Phone number",
+      thirdInput: "Comment",
+      btn: "Send",
+    },
     footer: {
       nav: {
         title: "Navigation",
@@ -488,6 +502,13 @@ export const wordsLibrary = {
         "ourWork9.png",
         "ourWork10.png",
       ],
+    },
+    form: {
+      title: "Jätke taotlus ja meie juht vastab kõigile Teie küsimustele",
+      firstInput: "Teie e-mail",
+      secondInput: "Telefoninumber",
+      thirdInput: "Kommentaar",
+      btn: "Saatma",
     },
     footer: {
       nav: {
@@ -662,6 +683,13 @@ export const wordsLibrary = {
         "ourWork10.png",
       ],
     },
+    form: {
+      title: "Hinterlassen Sie eine Anfrage und unser Manager wird alle Ihre Fragen beantworten",
+      firstInput: "Ihre E-Mail",
+      secondInput: "Telefonnummer",
+      thirdInput: "Ein Kommentar",
+      btn: "Senden",
+    },
     footer: {
       nav: {
         title: "Navigation",
@@ -834,6 +862,13 @@ export const wordsLibrary = {
         "ourWork9.png",
         "ourWork10.png",
       ],
+    },
+    form: {
+      title: "Laat een verzoek achter en onze manager zal al uw vragen beantwoorden",
+      firstInput: "Uw e-mail",
+      secondInput: "Telefoonnummer",
+      thirdInput: "Reactie",
+      btn: "Verzenden",
     },
     footer: {
       nav: {
@@ -1008,6 +1043,13 @@ export const wordsLibrary = {
         "ourWork10.png",
       ],
     },
+    form: {
+      title: "Deixe um pedido e nosso gerente responderá a todas as suas perguntas",
+      firstInput: "Seu E-mail",
+      secondInput: "Número de telefone",
+      thirdInput: "Comentário",
+      btn: "Enviar",
+    },
     footer: {
       nav: {
         title: "Navegação",
@@ -1181,6 +1223,13 @@ export const wordsLibrary = {
         "ourWork10.png",
       ],
     },
+    form: {
+      title: "Deje una solicitud y nuestro gerente responderá a todas sus preguntasы",
+      firstInput: "Su e-mail",
+      secondInput: "Número de Teléfono",
+      thirdInput: "Comentario",
+      btn: "Enviar",
+    },
     footer: {
       nav: {
         title: "Navegación",
@@ -1353,6 +1402,13 @@ export const wordsLibrary = {
         "ourWork9.png",
         "ourWork10.png",
       ],
+    },
+    form: {
+      title: "Lämna en förfrågan så svarar vår chef på alla dina frågor",
+      firstInput: "Din e-post",
+      secondInput: "Telefonnummer",
+      thirdInput: "Kommentar",
+      btn: "Skicka",
     },
     footer: {
       nav: {

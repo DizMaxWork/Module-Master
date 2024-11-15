@@ -54,6 +54,13 @@ export interface WordsLibrary {
     title: string;
     imgs: string[];
   };
+  form: {
+    title: string;
+    firstInput: string;
+    secondInput: string;
+    thirdInput: string;
+    btn: string;
+  };
   footer: {
     nav: {
       title: string;

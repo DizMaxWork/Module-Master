@@ -14,6 +14,7 @@ export const Main = ({
   configBlock,
   isideBlock,
   ourWorks,
+  form,
 }: {
   mainBlock: WordsLibrary["mainBlock"];
   plusesBlock: WordsLibrary["plusesBlock"];
@@ -21,15 +22,16 @@ export const Main = ({
   configBlock: WordsLibrary["configurations"];
   isideBlock: WordsLibrary["inside"];
   ourWorks: WordsLibrary["ourWorks"];
+  form: WordsLibrary["form"];
 }) => {
   return (
     <main>
-      <MainBlock mainBlock={mainBlock} />
+      <MainBlock mainBlock={mainBlock} data={form} />
       <PlusesBlock plusesBlock={plusesBlock} />
       <ModuleAndConfigOptions options={moduleOptions} type="moduleOptions" />
       <ModuleAndConfigOptions options={configBlock} type="configBlock" />
       <Inside data={isideBlock} />
-      <Form />
+      <Form data={form} />
       <OurWorks data={ourWorks} />
       <SliderIMG data={ourWorks} />
     </main>

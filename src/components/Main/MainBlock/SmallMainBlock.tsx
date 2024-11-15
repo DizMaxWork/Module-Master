@@ -4,8 +4,10 @@ import { PopUp } from "../PopUp";
 
 export const SmallMainBlock = ({
   mainBlock,
+  data,
 }: {
   mainBlock: WordsLibrary["mainBlock"];
+  data: WordsLibrary["form"];
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -34,7 +36,7 @@ export const SmallMainBlock = ({
           </button>
         </div>
       </div>
-      <PopUp isOpen={isOpen} setIsOpen={setIsOpen} />
+      <PopUp isOpen={isOpen} setIsOpen={setIsOpen} data={data} />
     </section>
   );
 };

@@ -5,8 +5,10 @@ import { SmallMainBlock } from "./SmallMainBlock";
 
 export const MainBlock = ({
   mainBlock,
+  data,
 }: {
   mainBlock: WordsLibrary["mainBlock"];
+  data: WordsLibrary["form"];
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -35,8 +37,8 @@ export const MainBlock = ({
           </button>
         </div>
       </section>
-      <PopUp isOpen={isOpen} setIsOpen={setIsOpen} />
-      <SmallMainBlock mainBlock={mainBlock} />
+      <PopUp isOpen={isOpen} setIsOpen={setIsOpen} data={data} />
+      <SmallMainBlock mainBlock={mainBlock} data={data} />
     </>
   );
 };

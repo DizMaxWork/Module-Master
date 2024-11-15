@@ -18,7 +18,7 @@ export const Header = ({
   };
   const [active, setActive] = useState<string>();
   return (
-    <header className="xl:w-[1353px] container mx-auto bg-whiteToHeader rounded-[36px] px-6 mt-4 py-4 sticky top-0 z-50 backdrop-blur-md">
+    <header className="xl:w-[1353px] container mx-auto bg-whiteToHeader rounded-[36px] px-6 mt-4 py-4 sticky top-5 z-50 backdrop-blur-md">
       <div className="flex justify-between items-center">
         <div className="mt-1.5 lg:hidden block">
           <button onClick={toggleMenu}>
