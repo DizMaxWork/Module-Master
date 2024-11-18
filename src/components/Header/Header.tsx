@@ -18,7 +18,7 @@ export const Header = ({
   };
   const [active, setActive] = useState<string>();
   return (
-    <header className="xl:w-[1353px] container mx-auto bg-whiteToHeader rounded-[36px] px-6 mt-4 py-4 sticky top-5 z-50 backdrop-blur-md">
+    <header className="container mx-auto bg-whiteToHeader rounded-[36px] px-6 mt-4 py-4 sticky top-5 z-50 backdrop-blur-md">
       <div className="flex justify-between items-center">
         <div className="mt-1.5 lg:hidden block">
           <button onClick={toggleMenu}>
@@ -57,7 +57,7 @@ export const Header = ({
             </nav>
             <div className="flex items-center ">
               <a href="tel:+37122057799" className="lg:mr-6 font-bold text-lg">
-                <span className="xl:block hidden">+371 220 57 799</span>
+                <span className="xl:block hidden">+371 22 05 77 99</span>
                 <img
                   src="phoneIcon.svg"
                   alt="Phone"

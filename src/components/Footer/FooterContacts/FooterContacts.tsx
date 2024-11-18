@@ -33,11 +33,11 @@ export const FooterContacts = ({
         </ul>
       </div>
       <div className="pb-6">
-        <a href="mailto:support@yoursite.com">support@yoursite.com</a>
+        <a href="mailto:mm@modulmaster.eu">mm@modulmaster.eu</a>
       </div>
       <div>
         <a href="tel:+37122057799" className="text-lg font-bold">
-          +371 220 57 799
+          +371 22 05 77 99
         </a>
       </div>
     </div>

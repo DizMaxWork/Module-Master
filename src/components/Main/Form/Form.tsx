@@ -18,17 +18,17 @@ export const Form = ({ data }: { data: WordsLibrary["form"] }) => {
               <input
                 type="email"
                 placeholder={data.firstInput}
-                className="border border-footerGray rounded-3xl px-8 py-4 my-2 w-full"
+                className="border border-[#C5C5C5] rounded-3xl px-8 py-4 my-2 w-full"
               />
               <input
                 type="phone"
                 placeholder={data.secondInput}
-                className="border border-footerGray rounded-3xl px-8 py-4 my-2 w-full"
+                className="border border-[#C5C5C5] rounded-3xl px-8 py-4 my-2 w-full"
               />
               <textarea
                 placeholder={data.thirdInput}
-                className="border border-footerGray rounded-3xl px-8 py-4 my-2 w-full"
-                rows={4}
+                className="border border-[#C5C5C5] rounded-3xl px-8 py-4 my-2 w-full"
+                rows={6}
               />
               <div className="mt-10">
                 <button className="text-white bg-color36 w-full text-center py-4 rounded-[36px]  transition ease-in-out hover:bg-neutral-900">

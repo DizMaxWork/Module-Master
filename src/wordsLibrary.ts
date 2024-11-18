@@ -190,7 +190,7 @@ export const wordsLibrary = {
       { title: "Our Works", link: "#ourWorks" },
       { title: "Contacts", link: "#footer" },
     ],
-    navSelectLanguages: "Select language",
+    navSelectLanguages: "Choose language",
     link: "main",
     mainBlock: {
       title: "Production of mobile, ready-to-live modules with all amenities",
@@ -684,7 +684,8 @@ export const wordsLibrary = {
       ],
     },
     form: {
-      title: "Hinterlassen Sie eine Anfrage und unser Manager wird alle Ihre Fragen beantworten",
+      title:
+        "Hinterlassen Sie eine Anfrage und unser Manager wird alle Ihre Fragen beantworten",
       firstInput: "Ihre E-Mail",
       secondInput: "Telefonnummer",
       thirdInput: "Ein Kommentar",
@@ -864,7 +865,8 @@ export const wordsLibrary = {
       ],
     },
     form: {
-      title: "Laat een verzoek achter en onze manager zal al uw vragen beantwoorden",
+      title:
+        "Laat een verzoek achter en onze manager zal al uw vragen beantwoorden",
       firstInput: "Uw e-mail",
       secondInput: "Telefoonnummer",
       thirdInput: "Reactie",
@@ -1044,7 +1046,8 @@ export const wordsLibrary = {
       ],
     },
     form: {
-      title: "Deixe um pedido e nosso gerente responderá a todas as suas perguntas",
+      title:
+        "Deixe um pedido e nosso gerente responderá a todas as suas perguntas",
       firstInput: "Seu E-mail",
       secondInput: "Número de telefone",
       thirdInput: "Comentário",
@@ -1224,7 +1227,8 @@ export const wordsLibrary = {
       ],
     },
     form: {
-      title: "Deje una solicitud y nuestro gerente responderá a todas sus preguntasы",
+      title:
+        "Deje una solicitud y nuestro gerente responderá a todas sus preguntasы",
       firstInput: "Su e-mail",
       secondInput: "Número de Teléfono",
       thirdInput: "Comentario",

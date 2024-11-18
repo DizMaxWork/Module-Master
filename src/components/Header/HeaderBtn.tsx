@@ -37,16 +37,17 @@ export const HeaderBtn = ({ defaultValue }: { defaultValue: string }) => {
               <ul className="absolute bg-darkGrey text-white rounded-2xl mt-1 w-full py-1">
                 <li
                   className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 "
-                  onClick={() => handleSelect("RU")}
-                >
-                  Russia
-                </li>
-                <li
-                  className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 "
                   onClick={() => handleSelect("EN")}
                 >
                   English
                 </li>
+                <li
+                  className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 "
+                  onClick={() => handleSelect("RU")}
+                >
+                  Russia
+                </li>
+
                 <li
                   className="px-2 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 "
                   onClick={() => handleSelect("ET")}
@@ -125,15 +126,15 @@ export const SmallHeaderBtn = () => {
             <ul className="absolute bg-darkGrey text-white rounded-2xl mt-1 w-full">
               <li
                 className="px-1.5 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 "
-                onClick={() => handleSelect("RU")}
-              >
-                RU
-              </li>
-              <li
-                className="px-1.5 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 "
                 onClick={() => handleSelect("EN")}
               >
                 EN
+              </li>
+              <li
+                className="px-1.5 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 "
+                onClick={() => handleSelect("RU")}
+              >
+                RU
               </li>
               <li
                 className="px-1.5 py-1 cursor-pointer transition rounded-2xl hover:bg-stone-600 "
