@@ -8,7 +8,7 @@ export const FooterContacts = ({
   return (
     <div>
       <h3 className="uppercase font-semibold pb-6">{data}</h3>
-      <div>
+      {/* <div>
         <ul className="flex -mx-3 mb-4">
           <li className="px-3">
             <a href="https://web.telegram.org">
@@ -31,7 +31,7 @@ export const FooterContacts = ({
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
       <div className="pb-6">
         <a href="mailto:mm@modulmaster.eu">mm@modulmaster.eu</a>
       </div>
