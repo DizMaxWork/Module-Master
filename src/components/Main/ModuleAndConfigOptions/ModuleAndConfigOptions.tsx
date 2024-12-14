@@ -45,11 +45,10 @@ export const ModuleAndConfigOptions = ({
                 <div className="overflow-hidden rounded-3xl">
                   <img src={card.img} alt={card.title} />
                 </div>
-                <div className="flex justify-between items-center px-3">
-                  <h3 className="text-xl text-totalBlack font-semibold pt-3">
+                <div className="flex justify-center items-center px-3">
+                  <h3 className="text-xl text-totalBlack font-semibold pt-3 ">
                     {card.title}
                   </h3>
-                  <img src={card.formImg} alt={card.formImg} className="mt-3" />
                 </div>
               </div>
             ))}
